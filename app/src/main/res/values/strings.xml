@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggested">Suggested</string>
+    <string name="nav_all_recipes">All Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dialog Strings -->
+    <string name="dialog_add_pantry_item">Add Pantry Item</string>
+    <string name="dialog_edit_pantry_item">Edit Pantry Item</string>
+    <string name="item_name_hint">Item Name *</string>
+    <string name="quantity_hint">Quantity *</string>
+    <string name="unit_hint">Unit</string>
+    <string name="category_hint">Category *</string>
+    <string name="expiry_date_hint">Expiry Date (YYYY-MM-DD) *</string>
+
+    <!-- Search Hints -->
+    <string name="search_pantry_hint">Search pantry items&#8230;</string>
+    <string name="search_all_recipes_hint">Search all recipes&#8230;</string>
+    <string name="search_suggested_recipes_hint">Search suggested recipes&#8230;</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_produce">Produce</string>
+    <string name="category_dairy">Dairy</string>
+    <string name="category_meat">Meat</string>
+    <string name="category_spices">Spices</string>
+    <string name="category_staples">Staples</string>
+    <string name="category_other">Other</string>
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="category_snacks">Snacks</string>
+    <string name="category_vegetarian">Vegetarian</string>
+
+    <!-- Headers & Messages -->
+    <string name="ready_to_cook_header">Ready to Cook (100% Match)</string>
+    <string name="almost_there_header">Almost There (Missing 1 Ingredient)</string>
+    <string name="almost_there_alert_message">💡 These recipes are missing only 1 ingredient. Add it to your pantry to unlock them!</string>
+    <string name="required_ingredients_header">Required Ingredients:</string>
+    <string name="preparation_steps_header">Preparation Steps</string>
+    <string name="cook_recipe_btn">Cook Recipe</string>
+
+    <!-- Empty States -->
+    <string name="no_pantry_items_title">No Pantry Items</string>
+    <string name="no_pantry_items_subtitle">Tap the + button below to add your first item.</string>
+    <string name="no_recipes_found_title">No Recipes Found</string>
+    <string name="no_recipes_found_subtitle">Try adjusting your search or category filter.</string>
+    <string name="no_suggested_recipes_title">No Suggested Recipes</string>
+    <string name="no_suggested_recipes_subtitle">No recipes match your pantry yet - add more ingredients</string>
+
+    <!-- Item Actions & Accessibility -->
+    <string name="edit_item">Edit Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="view_recipe_details">View Recipe Details</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="notifications_alerts_header">Notifications &amp; Alerts</string>
+    <string name="enable_expiry_warnings">Enable Expiring Soon Warnings</string>
+    <string name="unit_system_header">Unit Measurement System</string>
+    <string name="metric_system">Metric System (g, kg, ml, l)</string>
+    <string name="imperial_system">Imperial System (oz, lbs, fl oz)</string>
+    <string name="data_storage_header">Data &amp; Storage</string>
+    <string name="reset_warning_msg">Resetting database will clear all current pantry items and re-seed original sample recipes.</string>
+    <string name="reset_pantry_recipes_btn">Reset Pantry &amp; Seed Recipes</string>
+    <string name="about_app_header">About App</string>
+    <string name="app_name_label">App Name</string>
+    <string name="database_type_label">Database Type</string>
+    <string name="database_type_val">Room SQLite</string>
+    <string name="developer_info_label">Developer Info</string>
+    <string name="developer_info_val">RGIT Apps Team</string>
+</resources>

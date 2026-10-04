@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pantryFragment">
+
+    <fragment
+        android:id="@+id/pantryFragment"
+        android:name="com.rgitapps.smartpantrymanager.ui.pantry.PantryFragment"
+        android:label="Pantry"
+        tools:layout="@layout/fragment_pantry" />
+
+    <fragment
+        android:id="@+id/suggestedRecipesFragment"
+        android:name="com.rgitapps.smartpantrymanager.ui.recipes.SuggestedRecipesFragment"
+        android:label="Suggested Recipes"
+        tools:layout="@layout/fragment_suggested_recipes">
+        <action
+            android:id="@+id/action_suggestedRecipes_to_recipeDetail"
+            app:destination="@id/recipeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/allRecipesFragment"
+        android:name="com.rgitapps.smartpantrymanager.ui.recipes.AllRecipesFragment"
+        android:label="All Recipes"
+        tools:layout="@layout/fragment_all_recipes">
+        <action
+            android:id="@+id/action_allRecipes_to_recipeDetail"
+            app:destination="@id/recipeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.rgitapps.smartpantrymanager.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="com.rgitapps.smartpantrymanager.ui.recipes.RecipeDetailFragment"
+        android:label="Recipe Details"
+        tools:layout="@layout/fragment_recipe_detail">
+        <argument
+            android:name="recipeId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+</navigation>
