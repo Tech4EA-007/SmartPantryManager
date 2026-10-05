@@ -90,4 +90,4 @@ To run the unit test suite covering CRUD operations and the `StrictRecipeMatcher
 
 ## 📄 License & Credits
 
-Developed by **RGIT Apps Team** for Smart Pantry Management on Android.
+Developed by Eric **RGIT Apps Team** for Smart Pantry Management on Android.
